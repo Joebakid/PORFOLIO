@@ -1,6 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,400&display=swap');  
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,100&display=swap');
 
 :root{
     --bgc-color:black;
@@ -33,7 +31,7 @@
 body{
     color: var(--primary-text);
     background-color: var(--bgc-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.5s ease-in;
     height: 2000px;
 }
@@ -301,11 +299,11 @@ border-radius: 30px;
     color: var(--white-text);
      width: 100%;
      margin: 0 auto;
-    font-family: cursive;
+     font-family: 'Poppins', sans-serif;
 }
 
 footer{
-    background-color:  rgb(96, 62, 10);
+    /* background-color:  rgb(96, 62, 10); */
 }
 
 .footer-group{
