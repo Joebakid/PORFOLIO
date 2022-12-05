@@ -219,7 +219,7 @@ hr {
 }
 
 .pro {
-  border: 1px solid var(--gray-color);
+  background-color: aqua;
   margin-left: 10px;
 }
 
@@ -299,4 +299,9 @@ footer {
 .footer-group {
   display: flex;
   gap: 20px;
+  align-items: center;
+}
+
+.icon-edit {
+  background-color: ;
 }
