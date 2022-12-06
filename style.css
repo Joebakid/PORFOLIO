@@ -133,6 +133,10 @@ a {
   display: block;
   position: fixed;
   right: 50px;
+  background-color: var(--gray-color);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
   /* top: 40px; */
 }
 
@@ -232,7 +236,7 @@ hr {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 48px;
 }
 
@@ -344,6 +348,19 @@ hr {
   color: var(--hover-gray);
 }
 
+.one {
+  display: flex;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--project-underline);
+}
+
 /* .icon:hover {
   color: white;
 } */
@@ -420,6 +437,6 @@ footer {
 
 .footer-group {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
 }
