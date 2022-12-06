@@ -358,7 +358,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: var(--project-underline);
+  color: var(--white-text);
 }
 
 /* .icon:hover {
