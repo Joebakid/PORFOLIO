@@ -21,9 +21,17 @@ function darkModeOff() {
   document.body.classList.remove("light-mode");
 }
 
-const hamburger = document.getElementById("hamburger");
-const UL = document.getElementById("ul");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
-  UL.classList.toggle("show");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 });
+
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
