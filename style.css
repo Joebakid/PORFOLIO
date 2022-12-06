@@ -33,12 +33,28 @@
   border-bottom: 2px solid var(--white-text);
 }
 
+html {
+  transition: all 1sec;
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
   font-family: "Poppins", sans-serif;
   transition: all 0.5s ease-in;
   height: 2000px;
+}
+
+.about {
+  margin: 40px 0;
+  border-bottom: 3px solid var(--project-underline);
+  width: 30%;
+}
+
+.about-head {
+  border-left: 2px solid var(--project-underline);
+  padding-left: 2px;
 }
 
 p {
@@ -267,6 +283,7 @@ hr {
 .project {
   border-bottom: 5px solid var(--project-underline);
   border-width: 3px;
+  width: 30%;
 }
 
 .project-img {
