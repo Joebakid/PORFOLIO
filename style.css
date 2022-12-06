@@ -289,15 +289,47 @@ hr {
 }
 
 .icon {
-  padding: 5px 0;
-
+  padding: 10px 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
   cursor: pointer;
   transition: all 0.5s ease-in;
 }
 
-.icon:hover {
-  color: white;
+.icon-1 {
+  padding-right: 10px;
+  font-size: 20px;
+  transition: all;
 }
+
+.icon-2 {
+  font-size: 20px;
+  transition: all;
+}
+
+.icon-3,
+.icon-4,
+.icon-5 {
+  width: 40px;
+}
+
+.icon-5 {
+  width: 60px;
+}
+
+.icon-6 {
+  width: 40px;
+}
+
+.icon-1:hover,
+.icon-2:hover {
+  color: var(--hover-gray);
+}
+
+/* .icon:hover {
+  color: white;
+} */
 
 .bgc-project {
   background-color: var(--project-bgc);
