@@ -48,7 +48,40 @@
     display: flex;
   }
 
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
   .hamburger {
     display: none;
+  }
+
+  .nav-link {
+    padding-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  .nav-link:last-child {
+    padding-right: 0;
+  }
+
+  .nav-menu {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 70%;
+    left: 0;
+    top: 0;
+
+    background-color: transparent;
+  }
+
+  .wrapper-color-switch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0px;
   }
 }
