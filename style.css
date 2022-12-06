@@ -62,10 +62,6 @@ a {
   padding: 20px 0;
 }
 
-.hamburger:focus {
-  outline: none;
-}
-
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -231,7 +227,6 @@ hr {
 }
 
 .icon {
-  width: 40px;
   padding: 5px 0;
   cursor: pointer;
   transition: all 0.5s ease-in;
