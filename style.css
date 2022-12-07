@@ -15,6 +15,7 @@
   --white-text: white;
   --black-text: black;
   --popular-color: rgb(110, 185, 187);
+  --card-color: rgb(76, 76, 75);
 }
 
 .light-mode {
@@ -28,6 +29,7 @@
   --project-bgc: rgb(198, 198, 249);
   --white-text: black;
   --black-text: white;
+  --card-color: white;
 }
 .current {
   border-bottom: 2px solid var(--white-text);
@@ -76,7 +78,7 @@ a {
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -400,9 +402,18 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: var(--card-color);
   /* align-items: center; */
   /* align-items: center; */
   width: 100%;
+}
+
+.services-icon {
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .popular {
