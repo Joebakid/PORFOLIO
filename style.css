@@ -157,7 +157,7 @@ a {
   left: -100%;
   right: 0px;
   top: 0px;
-  bottom: 300px;
+  bottom: 00px;
   background-color: var(--gray-color);
   gap: 0;
   flex-direction: column;
