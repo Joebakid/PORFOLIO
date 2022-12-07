@@ -95,7 +95,7 @@ a {
   justify-content: space-between;
   gap: 0px;
   align-items: center;
-  width: 50%;
+  width: 60%;
   flex-direction: column;
 
   transition: 0.3s;
@@ -112,7 +112,7 @@ a {
 .nav-link {
   transition: 0.7s ease;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .nav-link:hover {
@@ -155,8 +155,9 @@ a {
 .nav-menu {
   position: fixed;
   left: -100%;
+  right: 0px;
   top: 0px;
-  bottom: 400px;
+  bottom: 300px;
   background-color: var(--gray-color);
   gap: 0;
   flex-direction: column;
@@ -164,7 +165,7 @@ a {
 
 li {
   list-style: none;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 /* hero-section */
 .intro {
