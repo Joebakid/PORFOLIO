@@ -36,6 +36,8 @@
 
   .project-div {
     display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
   }
 
   .project-div-firstchild {
@@ -43,7 +45,7 @@
   }
 
   .card {
-    padding-right: 100px;
+    /* padding-right: 100px; */
   }
 
   .card-container {
