@@ -93,7 +93,7 @@ a {
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 0px;
   align-items: center;
   width: 50%;
   flex-direction: column;
@@ -156,7 +156,8 @@ a {
   position: fixed;
   left: -100%;
   top: 0px;
-  bottom: 0;
+  bottom: 400px;
+  background-color: var(--gray-color);
   gap: 0;
   flex-direction: column;
 }
@@ -332,15 +333,15 @@ hr {
 .icon-3,
 .icon-4,
 .icon-5 {
-  width: 40px;
+  width: 20px;
 }
 
 .icon-5 {
-  width: 60px;
+  width: 30px;
 }
 
 .icon-6 {
-  width: 40px;
+  width: 20px;
 }
 
 .icon-1:hover,
