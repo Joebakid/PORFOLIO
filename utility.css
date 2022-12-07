@@ -29,14 +29,21 @@
   margin: 50px 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 870px) {
   .container {
     width: 60%;
   }
 
   .project-div {
     display: flex;
-    gap: 100px;
+  }
+
+  .project-div-firstchild {
+    padding-left: 20px;
+  }
+
+  .card {
+    padding-right: 100px;
   }
 
   .card-container {

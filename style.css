@@ -290,6 +290,10 @@ hr {
 }
 
 /* Project */
+/* .project-div {
+  display: flex;
+} */
+
 .project {
   border-bottom: 5px solid var(--project-underline);
   border-width: 3px;
