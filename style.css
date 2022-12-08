@@ -296,6 +296,11 @@ hr {
   display: flex;
 } */
 
+.bawo {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .project {
   border-bottom: 5px solid var(--project-underline);
   border-width: 3px;
@@ -315,6 +320,7 @@ hr {
 
 .pro {
   margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .pro p {

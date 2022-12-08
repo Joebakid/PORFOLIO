@@ -99,4 +99,8 @@
     height: 0;
     display: none;
   }
+
+  .bawo {
+    width: 50%;
+  }
 }
