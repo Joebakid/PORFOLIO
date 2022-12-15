@@ -161,7 +161,7 @@ a {
 .nav-menu {
   position: fixed;
   left: -100%;
-
+  z-index: 2;
   top: 0px;
   bottom: 50%;
   background-color: var(--gray-color);
