@@ -7,7 +7,7 @@
   
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="utility.css">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
@@ -66,7 +66,7 @@
  
 
 
-            <div class="intro">
+            <div class="intro" data-aos="zoom-out">
             
                 <h2 class="title">
                     Hey, I'm Joseph Bawo
@@ -96,7 +96,7 @@
 </header>
 
 <section>
-    <div class="container">
+    <div class="container" data-aos="zoom-out-up">
         
         <h2 id="about" class="about">About</h2>
         <img class="bawo" src="img/PSX_20221202_215502.jpg" alt="picture of joseph bawo">
@@ -128,7 +128,7 @@
    
 
     
-    <div class="container">
+    <div class="container" data-aos="zoom-out-up">
         <h2 class="project my-4" id="project"> Projects</h2>
 
 
@@ -304,7 +304,7 @@
 
 <section>
 
-    <div class="container">
+    <div class="container"  data-aos="zoom-out">
         <h2>Services I Offer...</h3>
         <h3 class="design-market">I design and code web pages into existence.</h3>
 
@@ -396,6 +396,13 @@
 
 
 <script src="mode.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset:400, duration:1000
+    });
+  </script>
 
 </body>
 </html>
