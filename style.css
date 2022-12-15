@@ -138,6 +138,7 @@ a {
   display: block;
   position: fixed;
   right: 50px;
+  z-index: 2;
   background-color: var(--gray-color);
   padding: 5px;
   border-radius: 5px;

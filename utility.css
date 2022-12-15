@@ -35,9 +35,11 @@
   }
 
   .project-div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* justify-content: space-between; */
-    gap: 20px;
+    gap: 30px;
   }
 
   .project-div-firstchild {
@@ -46,6 +48,7 @@
 
   .card {
     /* padding-right: 100px; */
+    /* height: 300px; */
   }
 
   .card-container {
