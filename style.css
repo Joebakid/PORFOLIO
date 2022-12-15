@@ -468,3 +468,11 @@ footer {
   gap: 30px;
   align-items: center;
 }
+
+.icon-card {
+  background-color: var(--gray-color);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+}
