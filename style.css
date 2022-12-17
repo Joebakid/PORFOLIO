@@ -388,7 +388,19 @@ hr {
   background-color: var(--project-bgc);
   margin-top: -7px;
   width: 100%;
-  padding: 2%;
+  padding: 4%;
+}
+
+.spacing-solution {
+  margin-top: 3.2em;
+}
+
+.spacing-solution-1 {
+  margin-top: 1.3em;
+}
+
+.spacing-solution-2 {
+  margin-top: 1.9em;
 }
 
 .design-market {
