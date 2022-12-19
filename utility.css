@@ -25,7 +25,7 @@
 .card {
   box-shadow: var(--shadow-1);
   cursor: pointer;
-  
+
   margin: 50px 0;
 }
 
@@ -47,7 +47,6 @@
   }
 
   .card {
-    
     /* padding-right: 100px; */
     /* height: 300px; */
   }
@@ -102,6 +101,13 @@
     visibility: hidden;
     height: 0;
     display: none;
+  }
+
+  .blog-flex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 200px;
+    align-items: center;
   }
 
   .bawo {

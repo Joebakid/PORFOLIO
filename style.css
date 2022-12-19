@@ -163,10 +163,14 @@ a {
   left: -100%;
   z-index: 2;
   top: 0px;
-  bottom: 50%;
+  bottom: 20%;
   background-color: var(--gray-color);
   gap: 0px;
   flex-direction: column;
+}
+
+.blog-menu {
+  bottom: 60%;
 }
 
 li {
