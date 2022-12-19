@@ -492,3 +492,7 @@ footer {
   display: flex;
   gap: 5px;
 }
+
+.section-blog {
+  margin-top: 200px;
+}
