@@ -125,4 +125,12 @@
   .bawo {
     width: 50%;
   }
+
+  .blog-img {
+    display: none;
+  }
+
+  .blog-img-2 {
+    display: flex;
+  }
 }

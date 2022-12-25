@@ -510,3 +510,25 @@ footer {
 .blog-ham {
   margin-right: 0;
 }
+
+.switch-blog {
+  display: flex;
+  gap: 50px;
+}
+
+.blog-img {
+  width: 100%;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-img-2 {
+  width: 80%;
+  display: none;
+}
+
+.blog-img-2 img {
+  width: 100%;
+}
