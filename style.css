@@ -326,6 +326,7 @@ hr {
 .pro {
   margin-left: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 3px;
 }
 
 .pro p {
@@ -494,5 +495,17 @@ footer {
 }
 
 .section-blog {
-  margin-top: 200px;
+  margin-top: 50px;
+}
+
+.section-blog p {
+  color: var(--gray-color);
+}
+
+.section-blog h1 {
+  /* text-decoration: underline; */
+}
+
+.blog-ham {
+  margin-right: 0;
 }

@@ -29,6 +29,12 @@
   margin: 50px 0;
 }
 
+.btn {
+  border-bottom: 2px solid gray;
+  padding: 1px;
+  /* border-radius: 10px; */
+}
+
 @media screen and (min-width: 870px) {
   .container {
     width: 60%;
