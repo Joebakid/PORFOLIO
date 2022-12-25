@@ -33,6 +33,12 @@
   border-bottom: 2px solid gray;
   padding: 1px;
   /* border-radius: 10px; */
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: var(--button-color1);
+  /* border-bottom: var(--button-color1); */
 }
 
 @media screen and (min-width: 870px) {

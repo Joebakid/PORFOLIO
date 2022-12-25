@@ -495,15 +495,16 @@ footer {
 }
 
 .section-blog {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .section-blog p {
   color: var(--gray-color);
 }
 
-.section-blog h1 {
+.section-blog h2 {
   /* text-decoration: underline; */
+  color: var(--hover-blue);
 }
 
 .blog-ham {
