@@ -513,7 +513,7 @@ footer {
 
 .switch-blog {
   display: flex;
-  gap: 50px;
+  align-items: center;
 }
 
 .blog-img {
@@ -531,4 +531,8 @@ footer {
 
 .blog-img-2 img {
   width: 100%;
+}
+
+.blog-size {
+  font-size: 1.4rem;
 }
