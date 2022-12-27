@@ -161,4 +161,8 @@
     align-items: center;
     justify-content: center;
   }
+
+  .aos-card {
+    width: 50%;
+  }
 }
