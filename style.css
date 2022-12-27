@@ -561,8 +561,8 @@ article h1 {
 
 .card-blog {
   width: 100%;
-  box-shadow: 2px 5px 15px 2px #666;
-  padding: 5px;
+  box-shadow: 2px 5px 15px 2px rgb(209, 207, 207);
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -570,4 +570,8 @@ article h1 {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.card-blog-container p {
+  color: var(--gray-color);
 }
