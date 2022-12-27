@@ -87,7 +87,7 @@ a {
 
 .border-different {
   border: 2px solid var(--hover-gray);
-  padding: 5px;
+  padding: 10px;
 }
 
 .navbar {
