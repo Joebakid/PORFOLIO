@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd9d18d47e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <div class="container">
+        <nav class="navbar switch-blog">
+          <div class="wrapper-color-switch">
+            <input type="checkbox" id="input-color-switch" />
+            <label for="input-color-switch" class="color-switch">
+              <div class="color-switch-toggle"></div>
+            </label>
+          </div>
+
+          <li class="nav-item">
+            <a href="blog.html" class="blog-size">Blog</a>
+          </li>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="blog-img">
+        <img data-aos="zoom-out-up" src="img/css-animate-scroll.jpg" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="blog-img-2">
+          <img data-aos="zoom-out-up" src="img/css-animate-scroll.jpg" alt="" />
+        </div>
+
+        <article>
+          <h1>ANIMATION ON SCROLL</h1>
+          <p>
+            Did you just see how the Aos image came into the page. this is a
+            simple animation. very easy to implement
+          </p>
+
+          <br />
+          <h2>How to implement this</h2>
+          <h3>CSS</h3>
+
+          <pre><code class="hljs perl">&lt;<span class="hljs-keyword">link</span> href=<span class="hljs-string">"https://unpkg.com/aos<span class="hljs-variable">@2</span>.3.1/dist/aos.css"</span> rel=<span class="hljs-string">"stylesheet"</span>&gt;</code></pre>
+
+          <h3>JS</h3>
+          <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"https://unpkg.com/aos@2.3.1/dist/aos.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+
+          <h3>INITIALIZE AOS</h3>
+          <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="css">
+            &nbsp;&nbsp;<span class="hljs-tag">AOS</span><span class="hljs-class">.init</span>();
+            </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+        </article>
+
+        <h3>Then put this on the div you want to give a transition.</h3>
+
+        <div class="card-blog-container">
+          <code class="hljs xml"
+            ><span class="hljs-tag"
+              >&lt;<span class="hljs-title">div</span>
+              <span class="hljs-attribute">data-aos</span>=<span
+                class="hljs-value"
+                >"fade-up"</span
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute"
+                >data-aos-duration</span
+              >=<span class="hljs-value">"3000"</span>&gt;</span
+            >
+            <span class="hljs-tag"
+              >&lt;/<span class="hljs-title">div</span>&gt;</span
+            ></code
+          >
+
+          <p>
+            Here is AOS website, get full documentation and full tutorials.
+            <a class="underline" href="https://michalsnik.github.io/aos/"
+              >https://michalsnik.github.io/aos/</a
+            >
+          </p>
+
+          <h2>Aos youtube tutorial</h2>
+
+          <div class="card-blog">
+            <span class="image-card"><img src="img/aos.JPG" alt="" /></span>
+            <div>
+              <h3 class="py-2">Animate On Scroll in 9 minutes | AOS</h3>
+              <p>
+                today we'll look at an easy way to make animation of scroll
+                using AOS library in only 9 mintues.
+              </p>
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=0kmFlBJIUkQ&t=398s"
+                >
+                  <button class="hire-me">Watch Now</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="mode.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

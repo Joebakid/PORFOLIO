@@ -580,3 +580,31 @@ article h1 {
 .card-blog-container p {
   color: var(--gray-color);
 }
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+  background: var(--gray-color);
+}
+
+.section--more {
+  color: #fff;
+  background: #0e0f34;
+  padding: 20px 0 40px 0;
+}
+
+.section-group code {
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+
+  color: #979db4;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}

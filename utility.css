@@ -44,6 +44,10 @@
   transition: all 1s;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .btn:hover {
   color: var(--button-color1);
   /* border-bottom: var(--button-color1); */
