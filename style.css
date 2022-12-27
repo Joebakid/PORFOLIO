@@ -85,6 +85,11 @@ a {
 
 /* navigation */
 
+.border-different {
+  border: 2px solid var(--hover-gray);
+  padding: 5px;
+}
+
 .navbar {
   /* min-height: 70px; */
   display: flex;

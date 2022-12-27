@@ -54,6 +54,10 @@
     width: 60%;
   }
 
+  .border-different {
+    border: none;
+  }
+
   .project-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
