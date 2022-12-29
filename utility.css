@@ -38,6 +38,10 @@
   padding: 0 15px;
 }
 
+.px-3 {
+  padding: 0 25px;
+}
+
 .card {
   box-shadow: var(--shadow-1);
   cursor: pointer;
