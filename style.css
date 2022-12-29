@@ -81,6 +81,7 @@ a {
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
+  overflow-x: hidden;
 }
 
 /* navigation */
