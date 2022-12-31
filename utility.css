@@ -61,7 +61,7 @@
 }
 
 .btn:hover {
-  color: var(--button-color1);
+  color: var(--gray-color);
   /* border-bottom: var(--button-color1); */
 }
 
