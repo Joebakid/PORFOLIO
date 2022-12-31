@@ -622,3 +622,16 @@ article li {
 
 .blog-h1 {
 }
+
+.blog-article p {
+  padding-bottom: 25px;
+}
+
+.blog-article h1 {
+  font-size: 1.4rem;
+}
+
+i {
+  color: var(--white-text);
+  font-weight: 600;
+}

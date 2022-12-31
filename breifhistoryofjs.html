@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd9d18d47e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <div class="container">
+        <nav class="navbar switch-blog">
+          <div class="wrapper-color-switch">
+            <input type="checkbox" id="input-color-switch" />
+            <label for="input-color-switch" class="color-switch">
+              <div class="color-switch-toggle"></div>
+            </label>
+          </div>
+
+          <li class="nav-item">
+            <a href="blog.html" class="blog-size">Blog</a>
+          </li>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="blog-img">
+        <img src="img/A-Brief-History-of-JavaScript.jpg" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="blog-img-2">
+          <img src="img/A-Brief-History-of-JavaScript.jpg" alt="" />
+        </div>
+
+        <i>DECEMBER 31, 2022</i>
+
+        <article class="blog-article">
+          <h1>Brief history of JS(ES5,ES6+ and ESNEXT)</h1>
+
+          <p>
+            JavaScript is a programming language that was created in 1995 by
+            Netscape Communications Corporation. It was initially designed to
+            enable simple client-side scripts in web browsers, allowing web
+            pages to be more interactive.
+          </p>
+
+          <p>
+            In 1997, JavaScript was standardized by the European Computer
+            Manufacturers Association (ECMA) as ECMAScript. The first version,
+            ECMAScript 1, was based on JavaScript and was released in 1997.
+          </p>
+
+          <p>
+            ECMAScript 5 (ES5) was released in 2009 and is the version of
+            JavaScript that is supported by most modern web browsers. It added
+            features such as strict mode, which helps to improve the security
+            and reliability of JavaScript code, and support for JSON (JavaScript
+            Object Notation), a popular data interchange format.
+          </p>
+
+          <p>
+            ECMAScript 6 (ES6), also known as ECMAScript 2015, was released in
+            2015 and added many new features to JavaScript, including classes,
+            modules, and arrow functions.
+          </p>
+
+          <p>
+            ECMAScript 2016 (ES7) was released in 2016 and added support for the
+            Array.prototype.includes() method, which determines whether an array
+            includes a certain element.
+          </p>
+
+          <p>
+            ECMAScript 2017 (ES8) was released in 2017 and added the
+            Object.values() and Object.entries() methods, which return the
+            values and key-value pairs, respectively, of an object's own
+            enumerable properties.
+          </p>
+
+          <p>
+            ECMAScript 2018 (ES9) was released in 2018 and added the async and
+            await keywords, which allow developers to write asynchronous code in
+            a synchronous-like style.
+          </p>
+
+          <p>
+            ECMAScript 2019 (ES10) was released in 2019 and added features such
+            as the Array.flat() and Array.flatMap() methods, which can be used
+            to flatten arrays, and the String.trimStart() and String.trimEnd()
+            methods, which can be used to remove whitespace from the beginning
+            and end of strings, respectively.
+          </p>
+            
+          <p></p>
+            ECMAScript 2020 (ES11) was
+            released in 2020 and added features such as the Promise.allSettled()
+            method, which allows developers to work with promises that may not
+            resolve or reject, and the globalThis variable, which provides a
+            consistent way to reference the global object in JavaScript.
+
+            </p>
+
+            <p> 
+            ECMAScript 2021 (ES12) was released in 2021 and added features such
+            as the String.prototype.matchAll() method, which allows developers
+            to iterate over all matches of a regular expression in a string, and
+            the Promise.any() method, which returns a promise that resolves or
+            rejects with the first fulfilled or rejected promise in an iterable
+            of promises.
+          </p>
+
+<p>ECMAScript 2022 (ES13) is currently in development and is expected to be released in 2022. It is expected to include features such as the String.prototype.replaceAll() method, which allows developers to replace all occurrences of a string or regular expression with a replacement string, and the Number.prototype.isNaN() method, which determines whether a value is NaN (Not-a-Number).
+
+</p>
+
+<p>ECMAScript "next", or ES.Next, refers to the version of ECMAScript that is currently in development and is expected to be released after the current version (ES13). It is not yet known what features will be included in this version.</p>
+
+        </article>
+      </div>
+    </section>
+
+    <script src="mode.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
