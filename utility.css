@@ -42,6 +42,10 @@
   padding: 0 25px;
 }
 
+.md {
+  font-size: 1.2rem;
+}
+
 .card {
   box-shadow: var(--shadow-1);
   cursor: pointer;

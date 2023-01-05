@@ -639,3 +639,16 @@ i {
   color: var(--white-text);
   font-weight: 600;
 }
+
+.btn-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--white-text);
+  color: var(--white-text);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-button:hover {
+  background-color: var(--hover-blue);
+}
