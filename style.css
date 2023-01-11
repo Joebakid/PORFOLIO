@@ -664,6 +664,7 @@ i {
   font-family: inherit;
   width: 55%;
   background-color: #fff;
+  outline: none;
 }
 
 .btn-form {
