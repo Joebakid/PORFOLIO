@@ -663,6 +663,7 @@ i {
   transition: all 0.3s ease-out;
   font-family: inherit;
   width: 55%;
+  background-color: #fff;
 }
 
 .btn-form {
