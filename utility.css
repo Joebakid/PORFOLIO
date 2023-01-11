@@ -22,6 +22,14 @@
   margin: 70px 0;
 }
 
+.mx-1 {
+  margin: 0 10px;
+}
+
+.mx-2 {
+  margin: 0 15px;
+}
+
 .py-1 {
   padding: 5px 0;
 }
@@ -196,5 +204,36 @@
 
   .nav-menu {
     border: none;
+  }
+
+  .card-blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-blog {
+    /* max-width: 500px; */
+  }
+
+  /* FORM */
+  .field {
+    padding: 0.5rem;
+    font-size: inherit;
+    /* margin-left: 15px; */
+    /* margin-right: 10px; */
+    transition: all 0.3s ease-out;
+    font-family: inherit;
+    width: 40%;
+  }
+
+  .btn-form {
+    padding: 0.5rem;
+    font-size: inherit;
+    width: 30%;
+    background-color: var(--primary-text);
+    border: 1px solid var(--white-text);
+    color: var(--bgc-color);
+    transition: all 0.3s ease-out;
+    font-family: inherit;
   }
 }

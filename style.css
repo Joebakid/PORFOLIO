@@ -653,3 +653,25 @@ i {
 .btn-button:hover {
   background-color: var(--hover-blue);
 }
+
+/* FORM */
+.field {
+  padding: 0.5rem;
+  font-size: inherit;
+  /* margin-left: 15px; */
+  /* margin-right: 10px; */
+  transition: all 0.3s ease-out;
+  font-family: inherit;
+  width: 55%;
+}
+
+.btn-form {
+  padding: 0.5rem;
+  font-size: inherit;
+  width: 40%;
+  background-color: var(--hover-blue);
+  border: 1px solid var(--white-text);
+  color: var(--bgc-color);
+  transition: all 0.3s ease-out;
+  font-family: inherit;
+}
