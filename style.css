@@ -676,4 +676,9 @@ i {
   color: var(--bgc-color);
   transition: all 0.3s ease-out;
   font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  background-color: var(--design-color);
 }
