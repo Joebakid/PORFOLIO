@@ -21,6 +21,8 @@ function darkModeOff() {
   document.body.classList.remove("light-mode");
 }
 
+//menu
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -35,3 +37,8 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+// document.querySelector("body").addEventListener("click", function () {
+//   hamburger.classList.remove("active");
+//   navMenu.classList.remove("active");
+// });
