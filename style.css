@@ -548,8 +548,19 @@ footer {
   /* margin-top: 20px; */
   font-size: 16px;
   cursor: pointer;
+  padding: 20px 30px;
   /* border: 1px solid white; */
   border-radius: 50px;
+}
+
+.btn-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 article h1 {
