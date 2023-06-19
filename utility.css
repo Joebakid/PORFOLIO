@@ -30,6 +30,10 @@
   margin: 0 15px;
 }
 
+.mx-2 {
+  margin: 0 25px;
+}
+
 .py-1 {
   padding: 5px 0;
 }
@@ -82,8 +86,12 @@
 }
 
 @media screen and (min-width: 870px) {
+  .color-switch {
+    margin-top: 60px;
+  }
+
   .container {
-    width: 60%;
+    width: 50%;
   }
 
   .border-different {
