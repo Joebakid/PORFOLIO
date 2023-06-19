@@ -5,10 +5,10 @@ colorSwitch.addEventListener("click", checkMode);
 function checkMode() {
   console.log("checking...");
   if (colorSwitch.checked) {
-    console.log("dark on");
+    // console.log("dark on");
     darkModeOn();
   } else {
-    console.log("dark off");
+    // console.log("dark off");
     darkModeOff();
   }
 }

@@ -87,7 +87,12 @@
 
 @media screen and (min-width: 870px) {
   .color-switch {
-    margin-top: 60px;
+    /* margin-top: 60px; */
+  }
+
+  .navbar {
+    margin-top: 50px;
+    width: 100%;
   }
 
   .container {

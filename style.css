@@ -96,7 +96,7 @@ a {
   /* min-height: 70px; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-menu {
@@ -681,4 +681,14 @@ i {
 
 .btn-form:hover {
   background-color: var(--design-color);
+}
+
+.return-home {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
 }
