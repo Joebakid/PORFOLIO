@@ -85,7 +85,7 @@
   /* border-bottom: var(--button-color1); */
 }
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 1200px) {
   .color-switch {
     /* margin-top: 60px; */
   }
