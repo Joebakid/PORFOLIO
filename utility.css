@@ -90,6 +90,10 @@
     /* margin-top: 60px; */
   }
 
+  .img-description {
+    width: 600px;
+  }
+
   .navbar {
     margin-top: 50px;
     width: 100%;
