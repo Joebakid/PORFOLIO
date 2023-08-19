@@ -1,15 +1,46 @@
+// const colorSwitch = document.getElementById("input-color-switch");
+
+// colorSwitch.addEventListener("click", checkMode);
+
+// function checkMode() {
+//   console.log("checking...");
+//   if (colorSwitch.checked) {
+//     // console.log("dark on");
+//     darkModeOn();
+//   } else {
+//     // console.log("dark off");
+//     darkModeOff();
+//   }
+// }
+
+// function darkModeOn() {
+//   document.body.classList.add("light-mode");
+// }
+
+// function darkModeOff() {
+//   document.body.classList.remove("light-mode");
+// }
 const colorSwitch = document.getElementById("input-color-switch");
 
-colorSwitch.addEventListener("click", checkMode);
+// Check if user has a preference saved in localStorage
+const savedMode = localStorage.getItem("colorMode");
+if (savedMode === "dark") {
+  colorSwitch.checked = true;
+  darkModeOn();
+} else {
+  colorSwitch.checked = false;
+  darkModeOff();
+}
 
-function checkMode() {
-  console.log("checking...");
+colorSwitch.addEventListener("click", toggleMode);
+
+function toggleMode() {
   if (colorSwitch.checked) {
-    // console.log("dark on");
     darkModeOn();
+    localStorage.setItem("colorMode", "dark");
   } else {
-    // console.log("dark off");
     darkModeOff();
+    localStorage.setItem("colorMode", "light");
   }
 }
 
