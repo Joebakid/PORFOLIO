@@ -127,6 +127,7 @@
   .card-container {
     display: flex;
     gap: 20px;
+    padding: 50px;
   }
 
   ul {

@@ -18,6 +18,12 @@
   --card-color: rgb(76, 76, 75);
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .light-mode {
   --bgc-color: white;
   --primary-text: black;
@@ -386,6 +392,7 @@ hr {
   display: flex;
   gap: 50px;
   margin: 20px 0;
+  align-items: center;
 }
 
 .technology {
