@@ -325,6 +325,8 @@ hr {
 .project {
   border-bottom: 5px solid var(--project-underline);
   border-width: 3px;
+  /* display: flex; */
+
   /* width: 30%; */
 }
 
