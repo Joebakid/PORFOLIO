@@ -325,7 +325,7 @@ hr {
 .project {
   border-bottom: 5px solid var(--project-underline);
   border-width: 3px;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .project-img {
