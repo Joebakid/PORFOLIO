@@ -35,17 +35,42 @@ function darkModeOff() {
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
+// Toggle menu when hamburger button is clicked
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
 
-document.querySelectorAll(".nav-link").forEach((n) =>
+// Close menu when a navigation link is clicked
+document.querySelectorAll(".nav-link").forEach((n) => {
   n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-  })
-);
+  });
+});
+
+// Close menu when clicking anywhere outside the menu
+document.body.addEventListener("click", (event) => {
+  if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+});
+
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+
+// hamburger.addEventListener("click", () => {
+//   hamburger.classList.toggle("active");
+//   navMenu.classList.toggle("active");
+// });
+
+// document.querySelectorAll(".nav-link").forEach((n) =>
+//   n.addEventListener("click", () => {
+//     hamburger.classList.remove("active");
+//     navMenu.classList.remove("active");
+//   })
+// );
 
 // document.querySelector("body").addEventListener("click", function () {
 //   hamburger.classList.remove("active");
