@@ -85,7 +85,7 @@
   /* border-bottom: var(--button-color1); */
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .color-switch {
     /* margin-top: 60px; */
   }
@@ -225,8 +225,8 @@
   }
 
   .card-blog-container {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .card-blog {
