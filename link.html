@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/bd9d18d47e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Bookmark</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <div class="container">
+        <nav class="navbar switch-blog">
+          <div class="wrapper-color-switch">
+            <input type="checkbox" id="input-color-switch" />
+            <label for="input-color-switch" class="color-switch">
+              <div class="color-switch-toggle"></div>
+            </label>
+          </div>
+
+          <li class="nav-item">
+            <a href="blog.html" class="blog-size">  <button class="btn-button">< Blog</button></a
+              ></a>
+          </li>
+        </nav>
+      </div>
+    </header>
+
+     <section>
+      <div class="blog-img">
+        <img src="img/bookmark.jpg" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="blog-img-2">
+          <img src="img/bookmark.jpg" alt="" />
+        </div>
+
+        <i>August 8, 2023</i>
+
+        <article class="blog-article">
+          <h1>Welcome to my Bookmarks</h1>
+
+             <div class="book-main">
+            <span class="book-main__child">
+                <h2 class="main__child-title">API</h2>
+                
+            <a  href="https://publicapis.dev/" target="_blank" class="bookmark__character">https://publicapis.dev/</a>
+            </span>
+
+            <span class="book-main__child">
+                <h2 class="main__child-title">ANIMATE</h2>
+                
+                <a  href="https://michalsnik.github.io/aos/" target="_blank" class="bookmark__character">https://michalsnik.github.io/aos/</a>
+            </span>
+
+            <span class="book-main__child">
+                <h2 class="main__child-title">hosting</h2>
+                
+            <a  href="https://www.netlify.com/" target="_blank" class="bookmark__character">https://www.netlify.com/</a>
+            </span>
+
+          </div>
+          
+            
+          
+        </article>
+      </div>
+    </section> 
+
+    <script src="mode.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

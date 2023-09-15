@@ -49,8 +49,8 @@ html {
 body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
-  font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif, "Calibri", "Trebuchet MS", sans-serif;
   transition: all 0.5s ease-in;
   /* height: 2000px; */
 }
@@ -535,6 +535,7 @@ footer {
 .switch-blog {
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
 }
 
 .blog-img {
@@ -718,8 +719,34 @@ i {
 .program-used-space {
   padding: 10px 10px;
   margin: 10px 0;
-  background-color: var(--gray-color);
+  background-color: var(--popular-color);
   border-radius: 6px;
   font-size: 10px;
+  text-transform: uppercase;
+  /* color: var(--white-text); */
+}
+
+.book-main {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.bookmark__character {
+  transition: all 0.2s ease-out;
+}
+
+.bookmark__character:hover {
+  color: var(--gray-color);
+}
+
+.book-main__child {
+  /* margin-bottom: 100px; */
+  padding: 20px 0;
+}
+
+.main__child-title {
+  color: var(--hover-blue);
   text-transform: uppercase;
 }
