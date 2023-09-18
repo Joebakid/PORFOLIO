@@ -719,9 +719,9 @@ i {
 .program-used-space {
   padding: 10px 10px;
   margin: 10px 0;
-  background-color: var(--popular-color);
+  /* background-color: var(--popular-color); */
   border-radius: 6px;
-  font-size: 10px;
+  /* font-size: 10px; */
   text-transform: uppercase;
   /* color: var(--white-text); */
 }
