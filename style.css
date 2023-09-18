@@ -78,12 +78,6 @@ a {
   color: var(--primary-text);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
