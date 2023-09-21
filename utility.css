@@ -240,12 +240,17 @@
   }
 
   .card-blog-container {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+
+  .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
   .card-blog {
-    /* max-width: 500px; */
+    max-width: 500px;
     /* height: 100%; */
     padding: 20px;
   }
