@@ -97,7 +97,7 @@
   /* border-bottom: var(--button-color1); */
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   .color-switch {
     /* margin-top: 60px; */
   }
@@ -105,6 +105,17 @@
   .img-description {
     width: 600px;
     height: 500px;
+  }
+
+  .flex-about {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .description-font {
+    font-size: 19px;
+    line-height: 1.9;
   }
 
   .navbar {
@@ -198,7 +209,7 @@
   }
 
   .bawo {
-    width: 50%;
+    width: 70%;
   }
 
   .blog-img {
