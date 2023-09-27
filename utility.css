@@ -261,7 +261,7 @@
   }
 
   .card-blog {
-    max-width: 500px;
+    /* max-width: 500px; */
     /* height: 100%; */
     padding: 20px;
   }
