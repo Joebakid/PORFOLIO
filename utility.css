@@ -107,6 +107,18 @@
     height: 500px;
   }
 
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
   .flex-about {
     display: flex;
     align-items: center;
