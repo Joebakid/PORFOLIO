@@ -718,7 +718,7 @@ i {
   background-color: var(--hover-blue);
   border: 1px solid var(--white-text);
   color: var(--bgc-color);
-  transition: all 0.3s ease-out;
+  transition: all 0.5s ease-in;
   font-family: inherit;
   cursor: pointer;
 }
