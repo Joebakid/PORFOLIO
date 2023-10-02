@@ -104,7 +104,7 @@ a {
   gap: 40px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .nav-menu {
@@ -268,7 +268,7 @@ hr {
   justify-content: flex-end;
   align-items: center;
   /* margin-top: 20px; */
-  margin-left: 48px;
+  margin-left: 50px;
 }
 
 .color-switch {
@@ -299,7 +299,7 @@ hr {
   position: absolute;
   width: 12em;
   /* left: 2em; */
-  top: 1.5em;
+  top: 1.7em;
 }
 
 #input-color-switch:checked ~ label .color-switch-toggle {
