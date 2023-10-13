@@ -767,3 +767,17 @@ i {
   color: var(--hover-blue);
   text-transform: uppercase;
 }
+
+.bar-tech {
+  display: block;
+  width: 30px;
+  height: 2px;
+
+  background-color: var(--white-text);
+}
+
+.tech-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
