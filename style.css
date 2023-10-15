@@ -828,6 +828,13 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin: 5px 5px; */
+}
+
+.form-subtitle__two {
+  visibility: hidden;
+  height: 0;
+  display: none;
 }
 
 .form-newletter-text {

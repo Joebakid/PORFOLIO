@@ -311,4 +311,10 @@
   .new-letter-bgc {
     padding: 80px 25px;
   }
+
+  .form-subtitle__two {
+    visibility: visible;
+    height: 100%;
+    display: inline-block;
+  }
 }
