@@ -706,14 +706,17 @@ i {
   /* margin-right: 10px; */
   transition: all 0.3s ease-out;
   font-family: inherit;
+  background-color: inherit;
   width: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
   outline: none;
+  border: none;
+  border-bottom: 1px solid var(--primary-text);
 }
 
 .btn-form {
   padding: 0.5rem;
-  font-size: inherit;
+  font-size: 12px;
   width: 100%;
   background-color: var(--hover-blue);
   border: 1px solid var(--white-text);
@@ -802,11 +805,16 @@ i {
 
 .new-letter-bgc {
   background-color: var(--card-color);
-  padding: 50px;
+  padding: 30px;
   margin: 10px 0;
   border-radius: 20px;
 }
 
-.form-text {
+.form-subtitle {
   text-transform: uppercase;
+  font-size: 15px;
+}
+
+.form-newletter-text {
+  font-size: 10px;
 }

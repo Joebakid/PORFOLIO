@@ -299,4 +299,11 @@
     transition: all 0.3s ease-out;
     font-family: inherit;
   }
+
+  .form-newletter-text {
+    font-size: 15px;
+  }
+  .form-subtitle {
+    font-size: 17px;
+  }
 }
