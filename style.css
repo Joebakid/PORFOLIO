@@ -361,7 +361,7 @@ hr {
 .icon {
   padding: 10px 0;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
 
   transition: all 0.5s ease-in;
@@ -829,4 +829,8 @@ i {
 .form-newletter-text {
   font-size: 12px;
   /* color: #5e5ee3; */
+}
+
+.socail-hire {
+  padding: 10px;
 }
