@@ -306,4 +306,8 @@
   .form-subtitle {
     font-size: 17px;
   }
+
+  .new-letter-bgc {
+    padding: 100px 25px;
+  }
 }
