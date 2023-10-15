@@ -730,7 +730,7 @@ i {
   width: 100%;
   background-color: var(--hover-blue);
   border: 1px solid var(--white-text);
-  color: var(--bgc-color);
+  color: var(--primary-text);
   transition: all 0.5s ease-in;
   font-family: inherit;
   cursor: pointer;
