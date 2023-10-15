@@ -286,7 +286,7 @@
     /* margin-right: 10px; */
     transition: all 0.3s ease-out;
     font-family: inherit;
-    width: 40%;
+    width: 100%;
   }
 
   .btn-form {
