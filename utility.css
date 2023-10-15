@@ -305,9 +305,10 @@
   }
   .form-subtitle {
     font-size: 17px;
+    padding: 20px 0;
   }
 
   .new-letter-bgc {
-    padding: 100px 25px;
+    padding: 80px 25px;
   }
 }

@@ -825,6 +825,9 @@ i {
 .form-subtitle {
   text-transform: uppercase;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-newletter-text {
