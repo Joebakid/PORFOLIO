@@ -9,7 +9,7 @@
   --button-color1: rgba(0, 0, 255, 0.52);
   --hover-blue: rgba(59, 59, 112, 0.966);
   --hover-gray: rgb(138, 137, 137);
-  --project-underline: rgb(0, 0, 255);
+  --project-underline: #0000ff;
   --design-color: rgba(33, 32, 128, 0.733);
   --project-bgc: rgb(21, 21, 93);
   --white-text: white;
@@ -440,12 +440,13 @@ hr {
 
 .card-customer {
   padding: 40px 20px;
-  border: 2px solid var(--design-color);
+  /* border: 2px solid var(--design-color); */
   /* border: none; */
 
   box-shadow: 0 3px 10px rgb(78 75 75 / 51%);
-  margin: 30px 0;
+  margin: 30px 0px;
   /* margin-bottom: 10px; */
+  /* padding: 0px 10px; */
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -458,7 +459,7 @@ hr {
 }
 
 .services-icon {
-  font-size: 500%;
+  font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -806,7 +807,7 @@ i {
 
 .new-letter-bgc {
   background-color: var(--card-color);
-  padding: 30px;
+  padding: 25px;
   margin: 10px 0;
   border-radius: 20px;
 }
@@ -817,5 +818,5 @@ i {
 }
 
 .form-newletter-text {
-  font-size: 10px;
+  font-size: 12px;
 }
