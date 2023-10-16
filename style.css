@@ -361,10 +361,13 @@ hr {
 .icon {
   padding: 10px 0;
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
 
   transition: all 0.5s ease-in;
+  gap: 10px;
 }
 
 .icon-1 {
@@ -514,8 +517,11 @@ footer {
 
 .footer-group {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
+  padding: 5px;
+  font-size: 13px;
+  flex-wrap: wrap;
 }
 
 .icon-card {
@@ -842,8 +848,9 @@ i {
   /* color: #5e5ee3; */
 }
 
-.socail-hire {
-  padding: 10px;
+#socail-hire {
+  padding: 40px 10px;
+  /* margin-top: 30px; */
 }
 
 .blog-container {
@@ -857,3 +864,8 @@ i {
 .blog-text {
   font-size: 13px;
 }
+
+/* .icon-flex {
+  display: flex;
+  gap: 10px;
+} */
