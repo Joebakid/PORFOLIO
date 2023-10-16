@@ -54,7 +54,7 @@ body {
   background-color: var(--bgc-color);
   font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial,
     sans-serif, "Calibri", "Trebuchet MS", sans-serif;
-  transition: all 0.5s ease-in;
+  /* transition: all 0.5s ease-in; */
   /* height: 2000px; */
 }
 
@@ -868,10 +868,9 @@ i {
   font-size: 13px;
 }
 
-/* .icon-flex {
-  display: flex;
-  gap: 10px;
-} */
+.icon-flex {
+  transition: all ease-in;
+}
 
 input::placeholder {
   color: var(--primary-text);
@@ -879,4 +878,8 @@ input::placeholder {
 
 input {
   caret-color: var(--primary-text);
+}
+
+.icon-flex:hover {
+  transform: scale(1.01);
 }

@@ -289,16 +289,17 @@
     width: 100%;
   }
 
-  /* .btn-form {
+  .btn-form {
     padding: 0.5rem;
     font-size: inherit;
-    width: 30%;
+    /* width: 30%; */
     background-color: var(--primary-text);
     border: 1px solid var(--white-text);
     color: var(--bgc-color);
     transition: all 0.3s ease-out;
     font-family: inherit;
-  } */
+    border: none;
+  }
 
   .form-newletter-text {
     font-size: 15px;
