@@ -289,7 +289,7 @@
     width: 100%;
   }
 
-  .btn-form {
+  /* .btn-form {
     padding: 0.5rem;
     font-size: inherit;
     width: 30%;
@@ -298,7 +298,7 @@
     color: var(--bgc-color);
     transition: all 0.3s ease-out;
     font-family: inherit;
-  }
+  } */
 
   .form-newletter-text {
     font-size: 15px;

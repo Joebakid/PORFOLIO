@@ -737,15 +737,18 @@ i {
   background-color: var(--hover-blue);
   border: 1px solid var(--white-text);
   color: var(--primary-text);
-  transition: all 0.5s ease-in;
+  transition: all 1s ease-in 1s;
   font-family: inherit;
   cursor: pointer;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-out;
   border-radius: 7px;
+  border: none;
 }
 
 .btn-form:hover {
   background-color: var(--design-color);
+
+  color: var(--primary-text);
 }
 
 .program-used {
@@ -869,3 +872,11 @@ i {
   display: flex;
   gap: 10px;
 } */
+
+input::placeholder {
+  color: var(--primary-text);
+}
+
+input {
+  caret-color: var(--primary-text);
+}
