@@ -52,10 +52,7 @@ html {
 body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
-  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif, "Calibri", "Trebuchet MS", sans-serif;
-  /* transition: all 0.5s ease-in; */
-  /* height: 2000px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about {
@@ -87,6 +84,20 @@ a {
   color: var(--primary-text);
 }
 
+.sticky {
+  position: fixed;
+  background-color: darkblue;
+  left: 5%;
+  right: 5%;
+  /* width: 500px; */
+  padding: 10px;
+  border-radius: 20px;
+  top: 0;
+  height: 100px;
+  z-index: 2;
+  /* color: white/; */
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -107,7 +118,7 @@ a {
   gap: 40px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .nav-menu {
@@ -117,7 +128,6 @@ a {
   align-items: center;
   width: 60%;
   flex-direction: column;
-
   transition: 0.3s;
   background-color: var(--black-text);
 }
@@ -154,7 +164,7 @@ a {
 
 .hamburger {
   display: block;
-  position: fixed;
+  /* position: fixed; */
   right: 50px;
   z-index: 2;
   border: 2px solid var(--white-text);

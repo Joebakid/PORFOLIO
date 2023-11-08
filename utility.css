@@ -102,6 +102,11 @@
     /* margin-top: 60px; */
   }
 
+  .sticky {
+    left: 20%;
+    right: 20%;
+  }
+
   .img-description {
     width: 600px;
     height: 500px;
@@ -131,8 +136,8 @@
   }
 
   .navbar {
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 20px;
+    /* width: 100%; */
   }
 
   .container {

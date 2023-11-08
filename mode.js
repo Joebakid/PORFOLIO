@@ -57,22 +57,25 @@ document.body.addEventListener("click", (event) => {
   }
 });
 
-// const hamburger = document.querySelector(".hamburger");
-// const navMenu = document.querySelector(".nav-menu");
+//  STICKY NAV
 
-// hamburger.addEventListener("click", () => {
-//   hamburger.classList.toggle("active");
-//   navMenu.classList.toggle("active");
-// });
+const nav = document.querySelector(".navbar");
+const header = document.querySelector("header");
 
-// document.querySelectorAll(".nav-link").forEach((n) =>
-//   n.addEventListener("click", () => {
-//     hamburger.classList.remove("active");
-//     navMenu.classList.remove("active");
-//   })
-// );
+const stickyNav = function (entries) {
+  const [entry] = entries;
 
-// document.querySelector("body").addEventListener("click", function () {
-//   hamburger.classList.remove("active");
-//   navMenu.classList.remove("active");
-// });
+  if (!entry.isIntersecting) nav.classList.add("sticky");
+  else nav.classList.remove("sticky");
+};
+
+const navHeight = nav.getBoundingClientRect().height;
+// console.log(navHeight);
+
+const headerObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0,
+  // rootMargin: `-${navHeight}px`,
+});
+
+headerObserver.observe(header);
