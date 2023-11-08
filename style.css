@@ -52,7 +52,7 @@ html {
 body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about {
@@ -118,7 +118,7 @@ a {
   gap: 40px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .nav-menu {
