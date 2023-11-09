@@ -89,10 +89,14 @@ a {
 .sticky {
   position: fixed;
   background-color: var(--stikcy-color);
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  border: 1px solid white;
   left: 5%;
   right: 5%;
   /* width: 500px; */
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 20px;
   top: 0;
   height: 100px;
@@ -141,13 +145,13 @@ a {
 }
 
 .nav-menu.active {
-  left: 10%;
+  left: 5%;
 }
 
 .nav-link {
   transition: 0.7s ease;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover {
@@ -213,7 +217,7 @@ a {
   border: 2px solid var(--white-text);
   border-radius: 20px;
   height: 70%;
-  width: 82%;
+  width: 90%;
 
   /* padding: 50px; */
   /* border-right: 2px solid var(--white-text); */
