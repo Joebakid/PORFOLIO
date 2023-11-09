@@ -18,6 +18,7 @@
   --card-color: rgb(76, 76, 75);
   --bgc-shadow: rgba(217, 204, 204, 0.16) 1px -3px 6px,
     rgba(218, 199, 199, 0.23) 1px 3px 6px;
+  --stikcy-color: darkblue;
 }
 
 * {
@@ -39,6 +40,7 @@
   --black-text: white;
   --card-color: white;
   --bgc-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  --stikcy-color: rgb(227, 224, 224);
 }
 .current {
   border-bottom: 2px solid var(--white-text);
@@ -86,7 +88,7 @@ a {
 
 .sticky {
   position: fixed;
-  background-color: darkblue;
+  background-color: var(--stikcy-color);
   left: 5%;
   right: 5%;
   /* width: 500px; */
@@ -139,7 +141,7 @@ a {
 }
 
 .nav-menu.active {
-  left: 0;
+  left: 10%;
 }
 
 .nav-link {
@@ -187,7 +189,7 @@ a {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-.nav-menu {
+/* .nav-menu {
   position: fixed;
   left: -100%;
   z-index: 2;
@@ -197,6 +199,26 @@ a {
   border-bottom: 2px solid var(--white-text);
   border-right: 2px solid var(--white-text);
   gap: 0px;
+  flex-direction: column;
+} */
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  z-index: 2;
+  top: 20%;
+  bottom: 25%;
+  /* right: -10%; */
+  background-color: var(--stikcy-color);
+  border: 2px solid var(--white-text);
+  border-radius: 20px;
+  height: 70%;
+  width: 82%;
+
+  /* padding: 50px; */
+  /* border-right: 2px solid var(--white-text); */
+  /* gap: 10px; */
+  /* width: 100%; */
   flex-direction: column;
 }
 

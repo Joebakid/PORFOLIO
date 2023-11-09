@@ -61,6 +61,7 @@ document.body.addEventListener("click", (event) => {
 
 const nav = document.querySelector(".navbar");
 const header = document.querySelector("header");
+const body = document.querySelector("body");
 
 const stickyNav = function (entries) {
   const [entry] = entries;
