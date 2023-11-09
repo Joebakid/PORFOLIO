@@ -50,12 +50,12 @@ document.querySelectorAll(".nav-link").forEach((n) => {
 });
 
 // Close menu when clicking anywhere outside the menu
-document.body.addEventListener("click", (event) => {
-  if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }
-});
+// document.body.addEventListener("click", (event) => {
+//   if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+//     hamburger.classList.remove("active");
+//     navMenu.classList.remove("active");
+//   }
+// });
 
 //  STICKY NAV
 
