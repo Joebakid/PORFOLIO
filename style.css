@@ -18,7 +18,7 @@
   --card-color: rgb(76, 76, 75);
   --bgc-shadow: rgba(217, 204, 204, 0.16) 1px -3px 6px,
     rgba(218, 199, 199, 0.23) 1px 3px 6px;
-  --stikcy-color: rgb(3, 3, 68);
+  --stikcy-color: rgb(28, 28, 31);
 }
 
 * {
@@ -93,15 +93,14 @@ a {
   border: 1px solid white;
   left: 5%;
   right: 5%;
-  /* width: 500px; */
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
   border-radius: 20px;
   top: 0;
-  height: 100px;
+  height: 70px;
   z-index: 2;
-  /* color: white/; */
 }
 
 .container {
@@ -170,15 +169,11 @@ a {
 
 .hamburger {
   display: block;
-  /* position: fixed; */
   right: 50px;
   z-index: 2;
   border: 2px solid var(--white-text);
-  /* background-color: var(--gray-color); */
   padding: 5px;
   border-radius: 5px;
-  margin-top: 20px;
-  /* top: 40px; */
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -333,7 +328,7 @@ hr {
 }
 
 .color-switch:before {
-  content: "Dark Mode On";
+  /* content: "Dark Mode On"; */
   display: inline-block;
   position: absolute;
   width: 12em;
@@ -346,7 +341,7 @@ hr {
 }
 
 #input-color-switch:checked ~ .color-switch::before {
-  content: "Light Mode On";
+  /* content: "Light Mode On"; */
 }
 
 #input-color-switch {

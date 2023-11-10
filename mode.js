@@ -62,12 +62,21 @@ document.querySelectorAll(".nav-link").forEach((n) => {
 const nav = document.querySelector(".navbar");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
+const bar = document.querySelectorAll(".bar");
+// const colorSwitch = document.querySelector(".color-switch");
 
 const stickyNav = function (entries) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) nav.classList.add("sticky");
   else nav.classList.remove("sticky");
+
+  // bar.forEach(function (bars) {
+  //   bars.style.width = "15px";
+  //   bars.style.height = "2px";
+  // });
+  // hamburger.style.border = "none";
+  // bar.style.width = "10px";
 };
 
 const navHeight = nav.getBoundingClientRect().height;
