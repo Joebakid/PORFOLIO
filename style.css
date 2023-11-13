@@ -18,7 +18,7 @@
   --card-color: rgb(76, 76, 75);
   --bgc-shadow: rgba(217, 204, 204, 0.16) 1px -3px 6px,
     rgba(218, 199, 199, 0.23) 1px 3px 6px;
-  --stikcy-color: rgb(28, 28, 31);
+  --stikcy-color: rgba(28, 28, 31, 0.852);
 }
 
 * {
@@ -40,7 +40,7 @@
   --black-text: white;
   --card-color: white;
   --bgc-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  --stikcy-color: rgb(227, 224, 224);
+  --stikcy-color: rgba(227, 224, 224, 0.987);
 }
 .current {
   border-bottom: 2px solid var(--white-text);

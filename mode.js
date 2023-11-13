@@ -35,6 +35,8 @@ function darkModeOff() {
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
+console.log(hamburger);
+
 // Toggle menu when hamburger button is clicked
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -64,6 +66,7 @@ const header = document.querySelector("header");
 const body = document.querySelector("body");
 const bar = document.querySelectorAll(".bar");
 // const colorSwitch = document.querySelector(".color-switch");
+const sectionOne = document.querySelector(".section-1");
 
 const stickyNav = function (entries) {
   const [entry] = entries;
@@ -90,4 +93,4 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
-
+headerObserver.observe(sectionOne);
