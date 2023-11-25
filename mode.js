@@ -93,4 +93,9 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
-headerObserver.observe(sectionOne);
+// headerObserver.observe(sectionOne);
+
+// GSAP
+
+gsap.fromTo(".tech-wrapper", { opacity: 0.2 }, { opacity: 1 });
+// gsap.fromTo(".sticky", { scaleY: 0.2 }, { scaleY: 1 });

@@ -18,7 +18,7 @@
   --card-color: rgb(76, 76, 75);
   --bgc-shadow: rgba(217, 204, 204, 0.16) 1px -3px 6px,
     rgba(218, 199, 199, 0.23) 1px 3px 6px;
-  --stikcy-color: rgba(28, 28, 31, 0.852);
+  --stikcy-color: rgb(18, 18, 23);
 }
 
 * {
@@ -101,6 +101,7 @@ a {
   top: 0;
   height: 70px;
   z-index: 2;
+  /* transform: scale(0.8); */
 }
 
 .container {
