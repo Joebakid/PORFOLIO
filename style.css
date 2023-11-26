@@ -96,12 +96,11 @@ a {
   display: flex;
   align-items: center;
   padding: 20px;
-
+  transition: all 1s ease-in-out;
   border-radius: 20px;
   top: 0;
   height: 70px;
   z-index: 2;
-  /* transform: scale(0.8); */
 }
 
 .container {
