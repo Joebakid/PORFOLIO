@@ -97,5 +97,37 @@ headerObserver.observe(header);
 
 // GSAP
 
-gsap.fromTo(".tech-wrapper", { opacity: 0.2 }, { opacity: 1 });
-// gsap.fromTo(".sticky", { scaleY: 0.2 }, { scaleY: 1 });
+// gsap.fromTo(".tech-wrapper", { opacity: 0.2 }, { opacity: 1 });
+gsap.fromTo(".line", { opacity: 0 }, { opacity: 1, duration: 5 });
+
+// form
+const formBtn = document.querySelector(".btn-form");
+const formContent = document.querySelector(".form-content");
+const formContainer = document.querySelector(".new-letter-bgc");
+const warning = document.querySelector(".warning");
+
+formBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const emailInput = document.forms["contact"]["email"].value;
+
+  if (!emailInput) {
+    warning.style.opacity = "1";
+  } else {
+    formContainer.style.transform = "scale(0.8)";
+    formContainer.style.transition = "all 1s ease-in";
+    formContent.style.opacity = "0";
+    formBtn.style.transform = "scale(0.8)";
+
+    // Create a new element for the thank you message
+    const thankYouMessage = document.createElement("p");
+    thankYouMessage.textContent =
+      "Thanks for submitting! We will get back to you.";
+
+    // Add a class or style to the thank you message if needed
+    thankYouMessage.classList.add("thank-you-message");
+
+    // Append the thank you message after the form content
+    formContainer.appendChild(thankYouMessage);
+  }
+});

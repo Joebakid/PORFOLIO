@@ -97,6 +97,27 @@
   /* border-bottom: var(--button-color1); */
 }
 
+.form-content {
+  position: relative;
+}
+
+.warning {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: rgba(255, 0, 0, 0.696);
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.thank-you-message {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  font-size: 1.1rem;
+  bottom: 50%;
+}
+
 @media screen and (min-width: 1300px) {
   .color-switch {
     /* margin-top: 60px; */

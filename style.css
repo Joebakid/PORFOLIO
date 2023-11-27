@@ -55,6 +55,7 @@ body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
   font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease-in;
 }
 
 .about {
@@ -90,7 +91,7 @@ a {
   position: fixed;
   background-color: var(--stikcy-color);
   /* background-color: rgba(255, 255, 255, 0.95); */
-  border: 1px solid white;
+  border: none;
   left: 5%;
   right: 5%;
   display: flex;
@@ -749,13 +750,11 @@ i {
 .field {
   padding: 0.5rem;
   font-size: inherit;
-  /* margin-left: 15px; */
-  /* margin-right: 10px; */
+  color: var(--primary-text);
   transition: all 0.3s ease-out;
   font-family: inherit;
   background-color: inherit;
   width: 100%;
-  /* background-color: #fff; */
   outline: none;
   border: none;
   border-bottom: 1px solid var(--primary-text);
@@ -771,7 +770,7 @@ i {
   transition: all 1s ease-in 1s;
   font-family: inherit;
   cursor: pointer;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-in;
   border-radius: 7px;
   border: none;
 }
@@ -840,7 +839,7 @@ i {
 .form-newsletter {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  /* gap: 30px; */
   /* align-items: center; */
   /* justify-content: center; */
 }
