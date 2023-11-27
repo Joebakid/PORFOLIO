@@ -113,9 +113,9 @@
 .thank-you-message {
   text-align: center;
   position: absolute;
-  top: 50%;
   font-size: 0.7rem;
-  padding: 10px;
+  top: 50%;
+  bottom: 50%;
 }
 
 @media screen and (min-width: 1300px) {
