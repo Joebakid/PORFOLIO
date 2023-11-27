@@ -114,10 +114,9 @@ formBtn.addEventListener("click", function (e) {
   if (!emailInput) {
     warning.style.opacity = "1";
   } else {
-    formContainer.style.transform = "scale(0.8)";
+    formContainer.style.transform = "scale(0.95)";
     formContainer.style.transition = "all 1s ease-in";
     formContent.style.opacity = "0";
-    formBtn.style.transform = "scale(0.8)";
 
     // Create a new element for the thank you message
     const thankYouMessage = document.createElement("p");
