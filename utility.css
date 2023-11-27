@@ -107,6 +107,7 @@
   color: rgba(255, 0, 0, 0.696);
   opacity: 0;
   transition: all 0.5s ease-out;
+  font-size: 0.7rem;
 }
 
 .thank-you-message {
@@ -114,13 +115,18 @@
   width: 100%;
   position: absolute;
   top: 50%;
-  /* font-size: 1.1rem; */
+  font-size: 0.7rem;
   bottom: 50%;
 }
 
 @media screen and (min-width: 1300px) {
   .color-switch {
     /* margin-top: 60px; */
+  }
+
+  .warning,
+  .thank-you-message {
+    font-size: 1.1rem;
   }
 
   .sticky {
