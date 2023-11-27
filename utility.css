@@ -112,11 +112,10 @@
 
 .thank-you-message {
   text-align: center;
-  width: 100%;
   position: absolute;
   top: 50%;
   font-size: 0.7rem;
-  bottom: 50%;
+  padding: 10px;
 }
 
 @media screen and (min-width: 1300px) {
@@ -127,6 +126,11 @@
   .warning,
   .thank-you-message {
     font-size: 1.1rem;
+  }
+
+  .thank-you-message {
+    width: 100%;
+    bottom: 50%;
   }
 
   .sticky {

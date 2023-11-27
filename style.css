@@ -855,7 +855,7 @@ i {
 
 .new-letter-bgc {
   background-color: var(--card-color);
-  padding: 50px 25px;
+  padding: 50px 50px;
 
   margin: 10px 0;
   border-radius: 20px;
