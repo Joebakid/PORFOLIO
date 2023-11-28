@@ -98,7 +98,7 @@ headerObserver.observe(header);
 // GSAP
 
 // gsap.fromTo(".tech-wrapper", { opacity: 0.2 }, { opacity: 1 });
-gsap.fromTo(".line", { opacity: 0 }, { opacity: 1, duration: 5 });
+// gsap.fromTo(".line", { opacity: 0 }, { opacity: 1, duration: 7 });
 
 // form
 const formBtn = document.querySelector(".btn-form");
