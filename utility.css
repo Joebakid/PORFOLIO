@@ -118,6 +118,10 @@
   bottom: 50%;
 }
 
+.svg-bubble {
+  /* background-color: var(--gray-color); */
+}
+
 @media screen and (min-width: 1300px) {
   .color-switch {
     /* margin-top: 60px; */
