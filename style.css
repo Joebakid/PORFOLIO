@@ -648,6 +648,7 @@ article h1 {
 
 .card-blog {
   width: 100%;
+  /* height: 200px; */
   /* box-shadow: var(--bgc-shadow); */
   padding: 20px;
   border-radius: 10px;
