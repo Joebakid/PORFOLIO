@@ -1,5 +1,23 @@
 const colorSwitch = document.getElementById("input-color-switch");
 
+//  STICKY NAV FOR BLOG.HTML
+document.addEventListener("scroll", function () {
+  // Get the navbar element with the class 'switch-blog'
+  var switchBlogNavbar = document.querySelector(".navbar.switch-blog");
+
+  // Get the distance from the top of the document to the top of the navbar
+  var navbarOffset = switchBlogNavbar.offsetTop;
+
+  // Check if the scroll position is past the navbar
+  if (window.scrollY > navbarOffset) {
+    // Add the 'sticky' class to the navbar
+    switchBlogNavbar.classList.add("sticky");
+  } else {
+    // Remove the 'sticky' class from the navbar
+    switchBlogNavbar.classList.remove("sticky");
+  }
+});
+
 // Check if user has a preference saved in localStorage
 const savedMode = localStorage.getItem("colorMode");
 if (savedMode === "dark") {
@@ -59,13 +77,12 @@ document.querySelectorAll(".nav-link").forEach((n) => {
 //   }
 // });
 
-//  STICKY NAV
+//  STICKY NAV FOR INDEX.HTML
 
 const nav = document.querySelector(".navbar");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const bar = document.querySelectorAll(".bar");
-// const colorSwitch = document.querySelector(".color-switch");
 const sectionOne = document.querySelector(".section-1");
 
 const stickyNav = function (entries) {
@@ -73,13 +90,6 @@ const stickyNav = function (entries) {
 
   if (!entry.isIntersecting) nav.classList.add("sticky");
   else nav.classList.remove("sticky");
-
-  // bar.forEach(function (bars) {
-  //   bars.style.width = "15px";
-  //   bars.style.height = "2px";
-  // });
-  // hamburger.style.border = "none";
-  // bar.style.width = "10px";
 };
 
 const navHeight = nav.getBoundingClientRect().height;
@@ -88,17 +98,9 @@ const navHeight = nav.getBoundingClientRect().height;
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
   threshold: 0,
-  // rootMargin: `-${navHeight}px`,
 });
 
 headerObserver.observe(header);
-
-// headerObserver.observe(sectionOne);
-
-// GSAP
-
-// gsap.fromTo(".tech-wrapper", { opacity: 0.2 }, { opacity: 1 });
-// gsap.fromTo(".line", { opacity: 0 }, { opacity: 1, duration: 7 });
 
 // form
 const formBtn = document.querySelector(".btn-form");

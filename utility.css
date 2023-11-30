@@ -122,6 +122,9 @@
   /* background-color: var(--gray-color); */
 }
 
+.project-grid h3 {
+}
+
 @media screen and (min-width: 1300px) {
   .color-switch {
     /* margin-top: 60px; */
