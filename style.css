@@ -633,10 +633,10 @@ article h1 {
   font-size: 1.2rem;
 }
 
-/* .card-blog img {
-  height: 240px;-
+.card-blog img {
+  /* height: 240px;- */
   width: 100%;
-  min-height: 200px;-
+  /* min-height: 200px;- */
 }
 
 .image-card {
@@ -644,7 +644,7 @@ article h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .card-blog {
   width: 100%;
