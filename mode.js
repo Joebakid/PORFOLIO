@@ -16,7 +16,7 @@ document.addEventListener("scroll", function () {
     // Remove the 'sticky' class from the navbar
     switchBlogNavbar.classList.remove("sticky");
   }
-  document.querySelector(".sticky").style.transform = "scale(0.8)";
+  // document.querySelector(".sticky").style.transform = "scale(0.99)";
 });
 
 // Check if user has a preference saved in localStorage
