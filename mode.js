@@ -1,3 +1,14 @@
+const seeMoreBtn = document.querySelector(".see-more-btn");
+const disapearElements = document.querySelectorAll(".disapper");
+
+seeMoreBtn.addEventListener("click", function () {
+  disapearElements.forEach(function (element) {
+    element.style.visibility = "visible";
+    element.style.height = "100%";
+    element.style.transition = "all 0.5s ease-in";
+  });
+});
+
 const colorSwitch = document.getElementById("input-color-switch");
 
 //  STICKY NAV FOR BLOG.HTML

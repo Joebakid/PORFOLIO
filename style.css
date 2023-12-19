@@ -915,3 +915,14 @@ input {
 .icon-flex:hover {
   transform: scale(1.01);
 }
+
+.disapper {
+  visibility: hidden;
+  /* visibility: visible; */
+  height: 0;
+  overflow: hidden;
+}
+
+.see-more-btn {
+  margin: 10px 0;
+}
