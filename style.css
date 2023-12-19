@@ -640,7 +640,7 @@ article h1 {
 }
 
 .image-card {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -648,11 +648,12 @@ article h1 {
 
 .card-blog {
   width: 100%;
-  /* height: 200px; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
   /* box-shadow: var(--bgc-shadow); */
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
-
   border: 2px solid var(--gray-color);
 }
 
