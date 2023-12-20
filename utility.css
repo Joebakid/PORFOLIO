@@ -82,7 +82,10 @@
 }
 
 .btn {
-  border-bottom: 2px solid gray;
+  /* border-bottom: 2px solid gray; */
+  text-decoration: underline;
+  width: 100%;
+  /* display: flex; */
   padding: 1px;
   /* border-radius: 10px; */
   transition: all 1s;
