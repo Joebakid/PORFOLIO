@@ -175,9 +175,9 @@
   }
 
   .flex-about {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 60px; */
   }
 
   .description-font {
