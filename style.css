@@ -843,6 +843,12 @@ i {
   gap: 5px;
 }
 
+.tech-wrapper-ex {
+  /* display: flex; */
+  /* align-items: center; */
+  gap: 5px;
+}
+
 .form-newsletter {
   display: flex;
   flex-direction: column;
