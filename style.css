@@ -111,6 +111,10 @@ a {
   overflow-x: hidden;
 }
 
+.technology a {
+  color: var(--hover-blue);
+}
+
 /* navigation */
 
 .border-different {
