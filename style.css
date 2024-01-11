@@ -112,7 +112,8 @@ a {
 }
 
 .technology a {
-  color: var(--hover-blue);
+  text-decoration: underline;
+  color: #0000ff;
 }
 
 /* navigation */
@@ -929,7 +930,6 @@ input {
 
 .disapper {
   visibility: hidden;
-  /* visibility: visible; */
   height: 0;
   overflow: hidden;
 }

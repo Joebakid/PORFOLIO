@@ -3,10 +3,17 @@ const disapearElements = document.querySelectorAll(".disapper");
 
 seeMoreBtn.addEventListener("click", function () {
   disapearElements.forEach(function (element) {
-    element.style.visibility = "visible";
-    element.style.height = "100%";
+    element.style.visibility =
+      element.style.visibility === "hidden" ? "visible" : "hidden";
+    element.style.height = element.style.height === "0px" ? "100%" : "0";
     element.style.transition = "all 0.5s ease-in";
   });
+
+  // Use a timeout to change the button text after the transition
+  setTimeout(() => {
+    seeMoreBtn.textContent =
+      seeMoreBtn.textContent === "See More" ? "Hide Project" : "See More";
+  }, 500); // Adjust the timeout value to match your transition duration
 });
 
 const colorSwitch = document.getElementById("input-color-switch");
