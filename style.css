@@ -113,7 +113,7 @@ a {
 
 .technology a {
   text-decoration: underline;
-  color: #0000ff;
+  color: #7e7eed;
 }
 
 /* navigation */
@@ -792,7 +792,7 @@ i {
 .program-used {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .program-used-space {
