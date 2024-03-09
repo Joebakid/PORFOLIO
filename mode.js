@@ -1,3 +1,23 @@
+//  STICKY NAV FOR BLOG.HTML
+document.addEventListener("scroll", function () {
+  // Get the navbar element with the class 'switch-blog'
+  var switchBlogNavbar = document.querySelector(".navbar.switch-blog");
+
+  // Get the distance from the top of the document to the top of the navbar
+  const navbarOffset = switchBlogNavbar.offsetTop;
+   
+
+  // Check if the scroll position is past the navbar
+  if (window.scrollY > navbarOffset) {
+    // Add the 'sticky' class to the navbar
+    switchBlogNavbar.classList.add("sticky");
+  } else {
+    // Remove the 'sticky' class from the navbar
+    switchBlogNavbar.classList.remove("sticky");
+  }
+  // document.querySelector(".sticky").style.transform = "scale(0.99)";
+});
+
 const seeMoreBtn = document.querySelector(".see-more-btn");
 const disapearElements = document.querySelectorAll(".disapper");
 
@@ -17,25 +37,6 @@ seeMoreBtn.addEventListener("click", function () {
 });
 
 const colorSwitch = document.getElementById("input-color-switch");
-
-//  STICKY NAV FOR BLOG.HTML
-document.addEventListener("scroll", function () {
-  // Get the navbar element with the class 'switch-blog'
-  var switchBlogNavbar = document.querySelector(".navbar.switch-blog");
-
-  // Get the distance from the top of the document to the top of the navbar
-  var navbarOffset = switchBlogNavbar.offsetTop;
-
-  // Check if the scroll position is past the navbar
-  if (window.scrollY > navbarOffset) {
-    // Add the 'sticky' class to the navbar
-    switchBlogNavbar.classList.add("sticky");
-  } else {
-    // Remove the 'sticky' class from the navbar
-    switchBlogNavbar.classList.remove("sticky");
-  }
-  // document.querySelector(".sticky").style.transform = "scale(0.99)";
-});
 
 // Check if user has a preference saved in localStorage
 const savedMode = localStorage.getItem("colorMode");
