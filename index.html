@@ -864,40 +864,33 @@
 
 
 
-      <div class="new-letter-bgc">
-        <div class="form-content">
+      <!-- <div class="new-letter-bgc">
 
-
-
-          <h4 class="mx-1 form-subtitle" data-aos="zoom-out" data-aos-anchor-placement="center-bottom"
-            data-aos-once="true"> <span class="bar-tech"></span>Subscribe <span class="form-subtitle__two"> to my news
-              letter </span> <span class="bar-tech"></span></h4>
-          <p class="py-2 form-newletter-text" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
-            data-aos-anchor-placement="center-bottom">Get the latest in web design, innovative UIs, templates, domains,
-            and resources, tailored for your portfolio. Subscribe now!</p>
-          <form class="py-2 form-newsletter" name="contact" method="POST" data-netlify="true" onsubmit="submit">
-
-
-
-            <label>
-              <input type="email" class="field" placeholder="Your Email" name="email" data-aos="fade-right"
-                data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-once="true"
-                required /></label>
-
-            <center>
-              <p class="warning">Please fill the form</p>
-            </center>
-
-
-
-            <button type="submit" class="btn-form" data-aos="fade-left" data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1500" data-aos-once="true">Subscribe Free</button>
-
-
-          </form>
-
-        </div>
+      <div class="form-content">
+    <h4 class="mx-1 form-subtitle" data-aos="zoom-out" data-aos-anchor-placement="center-bottom" data-aos-once="true">
+      <span class="bar-tech"></span>Subscribe <span class="form-subtitle__two"> to my news letter </span>
+      <span class="bar-tech"></span>
+    </h4>
+    <p class="py-2 form-newletter-text" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
+      data-aos-anchor-placement="center-bottom">
+      Get the latest in web design, innovative UIs, templates, domains, and resources, tailored for your portfolio.
+      Subscribe now!
+    </p>
+    <form id="form" class="py-2 form-newsletter" name="contact" method="POST" data-netlify="true">
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" class="field" placeholder="Your Email" name="email" id="email" data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-once="true" required>
       </div>
+      <center>
+        <p class="warning" style="opacity: 0;">Please fill the form</p>
+      </center>
+      <input type="submit" id="button" class="btn-form" value="Subscribe Free" data-aos="fade-left"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1500" data-aos-once="true">
+    </form>
+  </div>
+
+      </div> -->
 
       <div class="footer-group">
         <i class="fa fa-envelope px-2" aria-hidden="true" data-aos="fade-right"
@@ -958,6 +951,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- <script defer src="mode.js"></script> -->
+
+  <!-- EMAIL.JS -->
+  <script type="text/javascript">
+  emailjs.init('6SnOttK6DyORkCBfJ')
+</script>
 </body>
 
 </html>

@@ -122,32 +122,39 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header);
 
 // form
-const formBtn = document.querySelector(".btn-form");
-const formContent = document.querySelector(".form-content");
-const formContainer = document.querySelector(".new-letter-bgc");
-const warning = document.querySelector(".warning");
+//  const btn = document.getElementById('button');
+//     const formContent = document.querySelector('.form-content');
+//     const formContainer = document.querySelector('.new-letter-bgc');
+//     const warning = document.querySelector('.warning');
 
-formBtn.addEventListener("click", function (e) {
-  e.preventDefault();
+//     document.getElementById('form').addEventListener('submit', function (event) {
+//       event.preventDefault();
 
-  const emailInput = document.forms["contact"]["email"].value;
+//       const emailInput = document.forms['contact']['email'].value;
 
-  if (!emailInput) {
-    warning.style.opacity = "1";
-  } else {
-    formContainer.style.transform = "scale(0.95)";
-    formContainer.style.transition = "all 1s ease-in";
-    formContent.style.opacity = "0";
+//       if (!emailInput) {
+//         warning.style.opacity = '1';
+//       } else {
+//         btn.value = 'Sending...';
 
-    // Create a new element for the thank you message
-    const thankYouMessage = document.createElement("p");
-    thankYouMessage.textContent =
-      "Thanks for submitting! We will get back to you.";
+//         const serviceID = 'default_service';
+//         const templateID = 'template_sbogitg';
 
-    // Add a class or style to the thank you message if needed
-    thankYouMessage.classList.add("thank-you-message");
+//         emailjs.sendForm(serviceID, templateID, this)
+//           .then(() => {
+//             btn.value = 'Subscribe Free';
+//             formContainer.style.transform = 'scale(0.95)';
+//             formContainer.style.transition = 'all 1s ease-in';
+//             formContent.style.opacity = '0';
 
-    // Append the thank you message after the form content
-    formContainer.appendChild(thankYouMessage);
-  }
-});
+//             // Create a new element for the thank you message
+//             const thankYouMessage = document.createElement('p');
+//             thankYouMessage.textContent = 'Thanks for submitting! We will get back to you.';
+//             thankYouMessage.classList.add('thank-you-message');
+//             formContainer.appendChild(thankYouMessage);
+//           }, (err) => {
+//             btn.value = 'Subscribe Free';
+//             alert(JSON.stringify(err));
+//           });
+//       }
+//     });

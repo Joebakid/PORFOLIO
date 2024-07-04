@@ -846,17 +846,16 @@ i {
 }
 
 .tech-wrapper-ex {
-  /* display: flex; */
-  /* align-items: center; */
   gap: 5px;
 }
 
+
+
+/* unused code for form */
 .form-newsletter {
   display: flex;
   flex-direction: column;
-  /* gap: 30px; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  
 }
 
 .form-newletter__wrapper {
@@ -872,7 +871,7 @@ i {
   background-color: var(--card-color);
   padding: 10px 10px;
 
-  /* margin: 10px 0; */
+  
   border-radius: 20px;
 }
 
@@ -882,7 +881,7 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin: 5px 5px; */
+  
 }
 
 .form-subtitle__two {
@@ -893,8 +892,10 @@ i {
 
 .form-newletter-text {
   font-size: 12px;
-  /* color: #5e5ee3; */
+ 
 }
+
+/* ////////////// */
 
 #socail-hire {
   padding: 40px 10px;
