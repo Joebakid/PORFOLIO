@@ -1,3 +1,8 @@
+'use strict';
+
+
+
+
 //  STICKY NAV FOR BLOG.HTML
 document.addEventListener("scroll", function () {
   // Get the navbar element with the class 'switch-blog'
@@ -72,7 +77,7 @@ function darkModeOff() {
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-console.log(hamburger);
+// console.log(hamburger);
 
 // Toggle menu when hamburger button is clicked
 hamburger.addEventListener("click", () => {
