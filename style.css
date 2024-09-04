@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,100&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap"); */
 
 :root {
   --bgc-color: #000;
@@ -25,6 +26,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* font-family: "IBM Plex Mono", sans-serif; */
 }
 
 .light-mode {
@@ -55,6 +57,7 @@ body {
   color: var(--primary-text);
   background-color: var(--bgc-color);
   font-family: "Poppins", sans-serif;
+
   transition: all 0.5s ease-in;
 }
 
@@ -849,13 +852,10 @@ i {
   gap: 5px;
 }
 
-
-
 /* unused code for form */
 .form-newsletter {
   display: flex;
   flex-direction: column;
-  
 }
 
 .form-newletter__wrapper {
@@ -871,7 +871,6 @@ i {
   background-color: var(--card-color);
   padding: 10px 10px;
 
-  
   border-radius: 20px;
 }
 
@@ -881,7 +880,6 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .form-subtitle__two {
@@ -892,7 +890,6 @@ i {
 
 .form-newletter-text {
   font-size: 12px;
- 
 }
 
 /* ////////////// */
